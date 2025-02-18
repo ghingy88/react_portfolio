@@ -12,12 +12,14 @@ const Navbar = () => {
           <NavLink to="/" className="font-bold text-xl text-gray-800">Portfolio</NavLink>
           <div className="hidden md:flex space-x-8">
             <NavLink to="/" className={({ isActive }) => isActive ? 'text-blue-600' : 'text-gray-600 hover:text-blue-600'}>Home</NavLink>
-            </div>
-    </div>
+            <NavLink to="/about" className={({ isActive }) => isActive ? 'text-blue-600' : 'text-gray-600 hover:text-blue-600'}>About</NavLink>
+            <NavLink to="/projects" className={({ isActive }) => isActive ? 'text-blue-600' : 'text-gray-600 hover:text-blue-600'}>Projects</NavLink>
+            <NavLink to="/contact" className={({ isActive }) => isActive ? 'text-blue-600' : 'text-gray-600 hover:text-blue-600'}>Contact</NavLink>
+            
+          </div>
         </div>
-        </nav>
-
-    
+      </div>
+    </nav>
     );
   };
 
