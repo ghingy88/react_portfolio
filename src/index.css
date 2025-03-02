@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@layer base {
+  body {
+    @apply bg-[#1c1c22] text-white leading-loose
+  }
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
