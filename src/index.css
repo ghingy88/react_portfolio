@@ -2,7 +2,7 @@
 
 @layer base {
   body {
-    @apply bg-[#1c1c22] text-white leading-loose
+    @apply bg-[#1c1c22] text-white leading-loose min-w-100
   }
 }
 

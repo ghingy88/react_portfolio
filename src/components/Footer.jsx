@@ -1,3 +1,6 @@
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+
 const Footer = () => {
   return (
 <footer className="text-white py-8">
@@ -9,10 +12,10 @@ const Footer = () => {
           <div>
             <h2 className="text-xl font-bold mb-4">Quick Links</h2>
             <ul className="flex space-x-4">
-              <li><a href="/" className="text-gray-400 hover:text-white">Home</a></li>
-              <li><a href="/about" className="text-gray-400 hover:text-white">About</a></li>
-              <li><a href="/projects" className="text-gray-400 hover:text-white">Projects</a></li>
-              <li><a href="/contact" className="text-gray-400 hover:text-white">Contact</a></li>
+              <li><NavLink to="/" className="text-gray-400 hover:text-white">Home</NavLink></li>
+              <li><NavLink to="/about" className="text-gray-400 hover:text-white">About</NavLink></li>
+              <li><NavLink to="/projects" className="text-gray-400 hover:text-white">Projects</NavLink></li>
+              <li><NavLink to="/contact" className="text-gray-400 hover:text-white">Contact</NavLink></li>
             </ul>
           </div>
           <div>
@@ -26,7 +29,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 text-center text-gray-400">
-          &copy; {new Date().getFullYear()} All rights reserved.
+          &copy; {new Date().getFullYear()} Ghingmo Luk All rights reserved.
         </div>
       </div>
     </footer>

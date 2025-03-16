@@ -12,12 +12,12 @@ const Navbar = () => {
     <nav className="">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between h-24 items-center font-mono">
-          <NavLink to="/" className="font-bold text-4xl">GL<span className="text-indigo-600">.</span></NavLink>
+          <NavLink to="/" className="font-bold text-4xl hover:text-5xl transition-all duration-300">GL<span className="text-indigo-600">.</span></NavLink>
           {/* Desktop Nav */}
           <div className="hidden xl:flex space-x-8">
             <NavLink to="/" className={activeClass}>&lt;Home /&gt;</NavLink>
             <NavLink to="/about" className={activeClass}>&lt;About /&gt;</NavLink>
-            <NavLink to="/projects" className={activeClass}>&lt;Home /&gt;</NavLink>
+            <NavLink to="/Projects" className={activeClass}>&lt;Projects /&gt;</NavLink>
             <NavLink to="/contact" className={activeClass}>&lt;Contact /&gt;</NavLink>
             <NavLink to="/blog" className={activeClass}>&lt;Blog /&gt;</NavLink>
           </div>
