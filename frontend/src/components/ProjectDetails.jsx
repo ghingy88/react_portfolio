@@ -51,7 +51,7 @@ const ProjectDetails = () => {
           {repos.map((repo) => (
             <li key={repo.id}>
               <h3 className='font-bold underline text-2xl'>{repo.name}</h3>
-              <p>{repo.description}</p>
+              <p>{repo.description || "N/A"}</p>
               {/* <p>{repo.languages_url}</p> */}
               <a href={repo.html_url} target="_blank" rel="noopener noreferrer">
                 View on GitHub
