@@ -8,7 +8,6 @@ const Projects = () => {
         <>
         <Title title="Projects" />
         <ProjectDetails
-        title="hi" 
         />
         </>
     );

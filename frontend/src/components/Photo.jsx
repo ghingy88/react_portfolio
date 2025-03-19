@@ -5,7 +5,7 @@ const Photo = () => {
     return(
         <div className='w-full h-full relative'>
             <div>
-                <img className='w-[300px]' src={avatar} alt="avatar"></img>
+                <img className='md:pt-5  w-[300px]' src={avatar} alt="avatar"></img>
             </div>
         </div>
     )

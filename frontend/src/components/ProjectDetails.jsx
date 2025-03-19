@@ -49,11 +49,11 @@ const ProjectDetails = () => {
         {/* <h2>GitHub Projects</h2> */}
         <ul className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
           {repos.map((repo) => (
-            <li key={repo.id}>
-              <h3 className='font-bold underline text-2xl'>{repo.name}</h3>
+            <li className='border p-6' key={repo.id}>
+              <h3 className='font-bold underline text-2xl pb-[20px]'>{repo.name}</h3>
               <p>{repo.description || "N/A"}</p>
               {/* <p>{repo.languages_url}</p> */}
-              <a href={repo.html_url} target="_blank" rel="noopener noreferrer">
+              <a className="underline hover:bg-indigo-600" href={repo.html_url} target="_blank" rel="noopener noreferrer">
                 View on GitHub
               </a>
             </li>
