@@ -1,8 +1,12 @@
 import React from 'react';
 import Title from '../components/Title';
 import Photo from '../components/Photo';
+import { useState } from 'react';
 
 const Home = () => {
+
+    const[searchQuery, setSearchQuery] = useState('Search');
+
     return (
         <>
         <Title className="" title="&lt;Welcome /&gt;" />
@@ -28,7 +32,7 @@ expertise in a professional setting.</p>
         </section>
         <hr className='w-full border-t border-gray-300 my-8'/>
         <section className='flex flex-col items-center'>
-            <button className='text-white bg-indigo-600 rounded-lg px-5 py-2 hover:px-10 hover:py-1 transition-all duration-300' onClick={() => alert('it works')}>Explore<span>.</span></button>
+            <button className='text-white bg-indigo-600 rounded-lg px-5 py-2 hover:scale-105 transition-transform duration-300' onClick={() => alert('it works')}>Explore<span>.</span></button>
         </section>
 
 </>

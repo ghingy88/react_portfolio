@@ -21,10 +21,8 @@ const Footer = () => {
           <div>
             <h2 className="text-xl font-bold mb-4">Contact Me</h2>
             <ul className="flex space-x-4">
-              <li><a href="https://twitter.com" className="text-gray-400 hover:text-white">Twitter</a></li>
-              <li><a href="https://facebook.com" className="text-gray-400 hover:text-white">Facebook</a></li>
-              <li><a href="https://instagram.com" className="text-gray-400 hover:text-white">Instagram</a></li>
               <li><a href="https://linkedin.com" className="text-gray-400 hover:text-white">LinkedIn</a></li>
+              <li><a href="https://linkedin.com" className="text-gray-400 hover:text-white">GitHub</a></li>
             </ul>
           </div>
         </div>
