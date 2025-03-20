@@ -28,7 +28,9 @@ expertise in a professional setting.</p>
         </section>
         <hr className='w-full border-t border-gray-300 my-8'/>
         <section className='flex flex-col items-center'>
-            <button className='text-white bg-indigo-600 rounded-lg px-5 py-2 hover:scale-105 transition-transform duration-300' onClick={() => alert('TBC')}>View old portfolio<span>.</span></button>
+            {/* <button className='text-white bg-indigo-600 rounded-lg px-5 py-2 hover:scale-105 transition-transform duration-300' onClick={() => alert('it works')}>Explore<span>.</span></button> */}
+            <button className='text-white bg-indigo-600 rounded-lg px-5 py-2 hover:scale-105 transition-transform duration-300' onClick={() => window.location.href ="https://ghingy88.netlify.app/"}>View old portfolio<span>.</span></button>
+
         </section>
 
 </>
