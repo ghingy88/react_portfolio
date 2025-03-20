@@ -3,6 +3,8 @@ import Footer from './components/Footer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
+import About from './pages/About';
+import Contact from './pages/Contact';
 // import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // import './App.css'
@@ -16,9 +18,9 @@ function App() {
   {/* <main className="container mx-auto px-4 py-8 flex-grow max-w-6xl font-mono"> */}
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/About" element={<About />} />
             <Route path="/Projects" element={<Projects />} />
-            {/* <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} /> */}
+            <Route path="/Contact" element={<Contact />} />
           </Routes>
         {/* </main> */}
   <Footer />

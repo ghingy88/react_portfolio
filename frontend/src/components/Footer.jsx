@@ -13,16 +13,17 @@ const Footer = () => {
             <h2 className="text-xl font-bold mb-4">Quick Links</h2>
             <ul className="flex space-x-4">
               <li><NavLink to="/" className="text-gray-400 hover:text-white">Home</NavLink></li>
-              <li><NavLink to="/about" className="text-gray-400 hover:text-white">About</NavLink></li>
-              <li><NavLink to="/projects" className="text-gray-400 hover:text-white">Projects</NavLink></li>
-              <li><NavLink to="/contact" className="text-gray-400 hover:text-white">Contact</NavLink></li>
+              <li><NavLink to="/About" className="text-gray-400 hover:text-white">About</NavLink></li>
+              <li><NavLink to="/Projects" className="text-gray-400 hover:text-white">Projects</NavLink></li>
+              <li><NavLink to="/Contact" className="text-gray-400 hover:text-white">Contact</NavLink></li>
+              <li><NavLink to="/Contact" className="text-gray-400 hover:text-white">Site-Map</NavLink></li>
             </ul>
           </div>
           <div>
             <h2 className="text-xl font-bold mb-4">Contact Me</h2>
             <ul className="flex space-x-4">
-              <li><a href="https://linkedin.com" className="text-gray-400 hover:text-white">LinkedIn</a></li>
-              <li><a href="https://linkedin.com" className="text-gray-400 hover:text-white">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/ghingmoluk88/" className="text-gray-400 hover:text-white">LinkedIn</a></li>
+              <li><a href="https://github.com/ghingy88" className="text-gray-400 hover:text-white">GitHub</a></li>
             </ul>
           </div>
         </div>

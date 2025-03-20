@@ -16,9 +16,9 @@ const Navbar = () => {
           {/* Desktop Nav */}
           <div className="hidden xl:flex space-x-8">
             <NavLink to="/" className={activeClass}>&lt;Home /&gt;</NavLink>
-            <NavLink to="/about" className={activeClass}>&lt;About /&gt;</NavLink>
+            <NavLink to="/About" className={activeClass}>&lt;About /&gt;</NavLink>
             <NavLink to="/Projects" className={activeClass}>&lt;Projects /&gt;</NavLink>
-            <NavLink to="/contact" className={activeClass}>&lt;Contact /&gt;</NavLink>
+            <NavLink to="/Contact" className={activeClass}>&lt;Contact /&gt;</NavLink>
             <NavLink to="/blog" className={activeClass}>&lt;Blog /&gt;</NavLink>
           </div>
           

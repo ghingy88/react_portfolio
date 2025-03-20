@@ -36,7 +36,9 @@ const ProjectDetails = () => {
   
     useEffect(() => {
       // Fetch data from GitHub API
-      fetch('https://api.github.com/users/ghingy88/repos')
+      fetch('https://api.github.com/users/ghingy88/repos', {
+        method: 'GET',
+      })
         .then((response) => response.json())  // Convert response to JSON
         .then((data) => {
           setRepos(data);  // Set the data to repos state
